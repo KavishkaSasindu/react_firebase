@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-1 {
+    @apply p-1 md:px-3 md:py-2 rounded-md shadow-md shadow-blue-200 bg-blue-700 text-white hover:bg-blue-100 hover:shadow-yellow-50 hover:text-blue-900 duration-300;
+  }
+}
